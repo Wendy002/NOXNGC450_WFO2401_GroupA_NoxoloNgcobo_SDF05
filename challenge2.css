@@ -12,8 +12,8 @@ body {
 	background: url("image.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-    animation: expand-fade 1.5s ease-out 0.5s 1;
-    animation-fill-mode: backwards;
+    animation: expand-fade 1.5s ease-out 2s 1;
+    animation-fill-mode: both;
 }
 
 .title {
@@ -24,7 +24,7 @@ body {
 	text-transform: uppercase;
 	text-align: center;
     animation: fade 1s ease-out 1s 1;
-    animation-fill-mode: forwards;
+    animation-fill-mode: both;
 }
 
 @keyframes expand-fade{
