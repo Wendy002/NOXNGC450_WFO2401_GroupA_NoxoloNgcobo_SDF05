@@ -1,2 +1,6 @@
-# SDF05 CSS Animations
-- 
+# SDF05 CSS Animations ft scrimba
+- Menu
+- Landing Page
+- Logo 
+
+
