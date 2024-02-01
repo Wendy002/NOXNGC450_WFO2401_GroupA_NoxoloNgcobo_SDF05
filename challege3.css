@@ -7,6 +7,7 @@ body {
 	height: 30px;
 	width: 30px;
     animation: move 2s ease-in-out 1s infinite normal both;
+    transform: translateX(-50px,50px);
 }
 
 .box-red {
@@ -32,6 +33,6 @@ body {
 
 
 @keyframes move{
-    to{ transform: translate(50vw, 50vw) scaleX(10) skew(60deg);} 
+    to{ transform: translate(50vw, 50vw) scale(5,5) skew(50deg);} 
 
 }
