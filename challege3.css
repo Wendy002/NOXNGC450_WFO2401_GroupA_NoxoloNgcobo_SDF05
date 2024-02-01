@@ -6,6 +6,7 @@ body {
 .box {
 	height: 30px;
 	width: 30px;
+    animation: move 2s ease-in-out 1s infinite normal both;
 }
 
 .box-red {
@@ -26,4 +27,11 @@ body {
 .box-orange {
 	background: #ffaf24;
     margin: 0;
+}
+
+
+
+@keyframes move{
+    to{ transform: translate(50vw, 50vw) scaleX(10) skew(60deg);} 
+
 }
